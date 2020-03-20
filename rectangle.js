@@ -6,6 +6,37 @@ $(
             $btnCal=$('#calculate'),
             $perimeter=$('#perimeter'),
             $area=$('#area');
+        $forkMeGH.show("https://github.com/zhangxiaoyun1/rectangle");
+        $bszPageFooter.show("body");
+        $width.keypress(function(e){
+            var p=e.target.selectionStart,
+                v=e.target.value;
+            if(e.key==='e'){
+                if(p===0||v.indexOf('e')!==-1||v.indexOf('E')!==-1){
+                    e.preventDefault();
+                    return;
+                }
+                if(p===1&&v.substring(0,1)==='-'){
+                    e.preventDefault();
+                    return;
+                }
+            }
+        })
+        $heihgt.keypress(function(e){
+            var p=e.target.selectionStart,
+                v=e.target.value;
+            if(e.key==='e'){
+                if(p===0||v.indexOf('e')!==-1||v.indexOf('E')!==-1){
+                    e.preventDefault();
+                    return;
+                }
+                if(p===1&&v.substring(0,1)==='-'){
+                    e.preventDefault();
+                    return;
+                }
+            }
+        })
+
         /* calc button click event*/
         $btnCal.click(function(){
             //get value

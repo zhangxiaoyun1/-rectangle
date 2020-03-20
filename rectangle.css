@@ -12,3 +12,11 @@ input,label{
     padding-left: 5px;
     font-size: 1em;
 }
+#forkMeGH{
+    top: 0;
+    right: 0;
+}
+#bszPageFooter{
+    right: 0;
+    bottom: 0;
+}

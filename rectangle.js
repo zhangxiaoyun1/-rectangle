@@ -22,7 +22,7 @@ $(
                 }
             }
         })
-        $heihgt.keypress(function(e){
+        $height.keypress(function(e){
             var p=e.target.selectionStart,
                 v=e.target.value;
             if(e.key==='e'){

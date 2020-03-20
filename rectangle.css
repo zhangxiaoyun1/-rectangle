@@ -1,4 +1,4 @@
-div{
+#main{
     width: 370px;
     margin: 50px auto;
     font-size: 1.1em;
@@ -12,11 +12,11 @@ input,label{
     padding-left: 5px;
     font-size: 1em;
 }
-#forkMeGH{
+/* #forkMeGH{
     top: 0;
     right: 0;
 }
 #bszPageFooter{
     right: 0;
     bottom: 0;
-}
+} */
